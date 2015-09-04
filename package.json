@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MrChristofferson/React-Practice/issues"
   },
-  "homepage": "https://github.com/MrChristofferson/React-Practice#readme"
+  "homepage": "https://github.com/MrChristofferson/React-Practice#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
 }
