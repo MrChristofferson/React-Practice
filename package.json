@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MrChristofferson/React-Practice#readme",
   "dependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "jsx": "^0.9.89"
   }
 }
