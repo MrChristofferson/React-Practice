@@ -1,7 +1,9 @@
+var Greeting = React.createClass({
+  render: function() {
+    return (
+      <h1>ELLO!</h1>
+    );
+  }
+})
 
-var message = 
-  <div class="hello" onClick={function(){console.log('HAY')}}>
-    <span>Hello World</span>
-  </div>;
-
-React.renderComponent(message, document.body)
+React.render(<Greeting />, document.getElementById('content'));
