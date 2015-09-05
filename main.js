@@ -1,9 +1,14 @@
-var Greeting = React.createClass({
+var RadioOption = React.createClass({
   render: function() {
     return (
-      <h1>ELLO!</h1>
+      <p className="radio">
+        <label>
+          <input type="radio" name="referrer" value="newspaper" />
+            Newspaper
+          </label>
+        </p>
     );
   }
 })
 
-React.render(<Greeting />, document.getElementById('content'));
+React.render(<RadioOption />, document.body)
